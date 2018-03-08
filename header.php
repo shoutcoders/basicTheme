@@ -3,7 +3,7 @@
     <head>
         <meta charset="<?php bloginfo('charset'); ?>">
         <meta name="viewport" content="width=device-width">
-        <title><?php wp_title(); ?></title>
+        <title><?php echo wp_title(); ?></title>
         <meta name="description" content="<?php bloginfo('description'); ?>" />
         <?php wp_head(); ?>
     </head>
@@ -20,7 +20,7 @@
             </button>
         
         <a href="<?php echo home_url(); ?>"><h2 class="text-center"><?php bloginfo('name'); ?></h2></a>
-        <p><?php bloginfo('description'); ?></p> 
+        <p class="description"><?php bloginfo('description'); ?></p> 
         </div>
     </div>
 

@@ -169,7 +169,6 @@ add_action('init', 'basic_truck_taxonomies');
 
 
 
-
 /* Adding Theme Option Panel - It will be made later 
 add_menu_page( $page_title, $menu_title, $capability, $menu_slug, $function = '', $icon_url = '', int $position = null )
 
